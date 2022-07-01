@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Manga";
+	src: url(MangaBoldItalic-eY7g.ttf);
+}
+
+body{
+	background-image: url("black_chan.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Manga";
+	color: white;
+}
+
+#site-description{
+	padding: 5px;
+	width: 240px;
+	float: right;
+	border-radius: 10px;
+	background-color: #111111;
+	font-size: 22px;
+}
+
+#download-button{
+	background-color: #111111;
+	color: white;
+	border-radius: 30px;
+	border-width: 5px;
+	border-color: #111111;
+	font-family: "Manga";
+	font-size: 24px;
+	width: 180px;
+	height: 75px;
+	position: absolute;
+	top: 50%;
+	right: 45%;
+}
+
+#download-button:hover{
+	background-color: #ff1111;
+}
